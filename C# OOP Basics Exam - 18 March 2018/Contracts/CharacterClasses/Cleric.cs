@@ -23,7 +23,8 @@ namespace DungeonsAndCodeWizards.Contracts.CharacterClasses
             {
                 throw new InvalidOperationException(OutputMessages.HealEnemy);
             }
-
+            /*In my exam solution here I forgot to check for 
+            overhealing (healing over the base health of the character).*/
             character.Health = Math.Min(character.BaseHealth, character.Health + this.AbilityPoints);
         }
     }
