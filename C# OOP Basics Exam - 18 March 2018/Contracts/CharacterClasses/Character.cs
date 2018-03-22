@@ -84,7 +84,8 @@ namespace DungeonsAndCodeWizards.Contracts
         {
             if (!this.IsAlive)
             {
-                throw new InvalidOperationException(OutputMessages.CharacterIsDead);
+                //on the exam solution I was throwing an ArgumentException here by mistake and it cost me some IO points.
+                throw new InvalidOperationException(OutputMessages.CharacterIsDead);               
             }
         }
 
