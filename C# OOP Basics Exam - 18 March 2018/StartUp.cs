@@ -10,8 +10,8 @@ namespace DungeonsAndCodeWizards
 		// However, you ARE allowed to use your own namespaces (or no namespaces at all if you prefer) in other classes.
 		public static void Main(string[] args)
 		{
-            var engine = new Engine();
-            engine.Run();
+                     var engine = new Engine();
+                     engine.Run();
 		}
 	}
 }
